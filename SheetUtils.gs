@@ -10,7 +10,7 @@
  *   SheetUtils.withLock(function(){ ... })            -> prevents concurrent trigger runs
  *   SheetUtils.retry(function(){ return UrlFetchApp.fetch(url); }, 3)
  *
- * Built by SheetFix Studio — ishubham8.gumroad.com/l/wfxzs
+ * Free for personal and commercial use. Written by Shubham Gautam.
  */
 var SheetUtils = (function () {
   function ss() { return SpreadsheetApp.getActiveSpreadsheet(); }
@@ -141,7 +141,3 @@ var SheetUtils = (function () {
 
   return { readObjects: readObjects, writeObjects: writeObjects, dedupe: dedupe, mergeSheets: mergeSheets, upsert: upsert, withLock: withLock, retry: retry };
 })();
-
-
-
-That is all six files. Questions or a custom adaptation: message me through the Fiverr link in the Read me section.
